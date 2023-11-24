@@ -1,0 +1,54 @@
+.cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.cardbut {
+    background-image: url(../img/but.png);
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 200px;
+}
+
+.cardbut:nth-child(2) {
+    background-image: url(../img/but2.png);
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 200px;
+}
+
+.cardbut  {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reserva {
+    background-image: url(../img/reservas.png);
+    background-position: center;
+    background-size: cover;
+    width: 600px;
+    height: 250px;
+    margin: auto;
+}
+
+.card {
+    width: 80%;
+    margin: auto;
+    width: 325px;
+    padding: 20px;
+    background-color: rgb(219, 219, 219);
+    margin-top: 50px;
+    border-radius: 8px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.card img {
+    width: 280px;
+}

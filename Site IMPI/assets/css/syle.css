@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400;600;800&family=Lato:wght@100;400;700&family=Mulish:wght@300;400;700&family=Poppins:wght@200;300;500;600&family=Red+Hat+Display:wght@300;400;700&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+* {
+font-family: 'Inconsolata', monospace;
+font-family: 'Lato', sans-serif;
+font-family: 'Mulish', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Red Hat Display', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #FFFFFF;
+}
+
+.nav-bar {
+    background-color: #BEC4D2;
+}
+
+.nav-bar2 {
+    background-color: #BEC4D2;
+    height: 9.375rem;
+}
+
+.nav-bar2 h1 {
+    color: #1F3972;
+    text-align: center;
+    margin-top: auto;
+    margin: auto;
+    padding: 3.125rem;
+}
+
+.nav {
+    background-color: #1F3972;
+    display: flex;
+}
+
+.nav ul a li {
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    color: #BDC3CF;
+}
+
+.nav ul {
+    display: flex;
+    color: #BDC3CF;
+    margin-left: 68.75rem;
+    gap: .75rem;
+}
+
+.nav img {
+    padding: .3125rem;
+}
+
+.logo {
+    margin-right: 53.125rem;
+}
+
+.menu-button {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: .625rem;
+}
+
+.menu-button ul, a {
+    text-decoration: none;
+    display: flex;
+    list-style-type: none;
+    gap: .5rem;
+    color: #1F3972;
+    align-items: center;
+}
+
+.linha {
+    height: 3.125rem;
+    width: .0625rem;
+    border: none;
+    background-color: #8E9AB4;
+}
+
+footer {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    max-width: 46.875rem;
+    margin: auto;
+}
+
+footer img {
+    margin-top: .625rem;
+    margin-left: 1.125rem;
+}
+
+.p-footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}

@@ -1,0 +1,30 @@
+Tags HTML utilizadas
+
+<!DOCTYPE html>: Define o tipo de documento como HTML.
+<html>: Define o elemento raiz do documento HTML.
+<head>: Define o cabeçalho do documento HTML.
+<meta charset="UTF-8">: Define a codificação de caracteres para UTF-8.
+<meta name="viewport" content="width=device-width, initial-scale=1.0">: Define a configuração de visualização do conteúdo em dispositivos móveis.
+<title>: Define o título da página.
+<link rel="stylesheet" href="css/style.css">: Vincula o arquivo de estilo externo ao documento HTML.
+<body>: Define o corpo do documento HTML.
+<header>: Define o cabeçalho da página.
+<div class="banner">: Define uma divisão (container) com a classe "banner".
+<main>: Define a seção principal do conteúdo da página.
+<div>: Define uma divisão (container) genérica sem uma classe específica.
+<aside>: Define uma seção adicional, normalmente usada para conteúdo relacionado ou complementar.
+<footer>: Define o rodapé da página.
+
+Propriedades CSS Utilizadas
+
+margin
+width
+height
+display
+max-width
+padding-left
+padding-right
+flex-wrap
+flex-grow
+background-color
+@media screen and (max-width: 500px)

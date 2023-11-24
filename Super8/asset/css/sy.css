@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400;600;800&family=Lato:wght@100;400;700&family=Mulish:wght@300;400;700&family=Red+Hat+Display:wght@300;400;700&display=swap');
+* {
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #efedf0;
+}
+
+header {
+    background-color: black;
+    width: 100%;
+    color: white;
+}
+
+.main {
+    margin: auto;
+    max-width: 1000px;
+    text-align: center;
+
+}
+
+.menu {
+    display: flex;
+    max-width: 1000px;
+    margin: auto;
+    justify-content: space-between;   
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 50px;
+    padding: 0;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    width: 240px;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.button {
+    padding: 8px 40px;
+    height: 35px;
+    background-color: #29BEC8;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #6ef5ff;
+}
+
+.text {
+    text-align: center;
+    padding: 20px;
+}
+
+.locali {
+    text-align: center;
+}
+
+.news {
+    width: 500px;
+    height: auto;
+    margin: auto;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.news input  {
+    border-radius: 15px;
+    background-color: rgb(206, 206, 206);
+    margin: 8px;
+}
+
+.butnews {
+    border-radius: 15px;
+    background-color: rgb(206, 206, 206);
+}
+footer{
+    background-color: black;
+    color: white;
+    max-width: 100%;
+    margin-top: 20px;
+}
+.rodape {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.imgrodape {
+    margin-top: 60px;
+}
+
+.info img {
+    width: 150px;
+}
+
+.copy {
+    color: rgb(126, 126, 126);
+}
+
+.icomemedia {
+    display: none;
+}
+
+@media screen and (max-width: 630px) {
+    .icomemedia {
+        display: block;
+    }
+
+    .menu ul {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .rodape {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+}

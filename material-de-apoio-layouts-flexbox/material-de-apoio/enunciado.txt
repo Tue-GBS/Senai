@@ -1,0 +1,6 @@
+Elabore um layout responsivo utilizando o display flex para posicionar elementos em uma página web, demonstrando compreensão dos conceitos e propriedades do flexbox.
+
+Guia de referência flexbox:
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+Obs.: O modo Flexbox de trabalhar se baseia na propriedade 'display: flex;'. Sem ela não é possível utilizar quaisquer outras propriedades do flexbox encontradas no guia, ou seja, é necessário que ela seja aplicada ao elemento "pai" para que os elementos dentro do elemento "pai" sejam organizados com as propriedades do material de guia.
